@@ -19,4 +19,16 @@
 	Height="90" Width="300" HorizontalAlignment="Left" VerticalAlignment="Top"
 	HorizontalContentAlignment="Center" FontFamily="Comic Sans MS" FontSize="48"
 	Content="BarberShop" FontWeight="Bold"/>
+		<StackPanel Grid.Row="1" VerticalAlignment="Center">
+			<Button Content="Мужская Стрижка"   Height="50" Width="230" Margin="35,0,0,0"
+					x:Name="Button1" FontSize="16" Background="#e74d41" Foreground="#ffffff" />
+			<Button Content="Детская Стрижка"  Height="50" Width="230" Margin="35,10,0,0"
+                    x:Name="Button2" FontSize="16" Background="#e74d41" Foreground="#ffffff"/>
+			<Button Content="Стрижка Бороды"  Height="50" Width="230" Margin="35,10,0,0"
+                    x:Name="Button3" FontSize="16" Background="#e74d41" Foreground="#ffffff"/>
+			<Button Content="Наши Адреса"  Height="50" Width="230" Margin="35,10,0,0"
+                    x:Name="Button4" FontSize="16" Background="#e74d41" Foreground="#ffffff"/>
+			<Button Content="О нас"  Height="50" Width="230" Margin="35,10,0,0"
+                    x:Name="Button5" FontSize="16" Background="#e74d41" Foreground="#ffffff"/>
+		</StackPanel>	
 
