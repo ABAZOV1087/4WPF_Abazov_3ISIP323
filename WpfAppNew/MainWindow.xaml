@@ -30,5 +30,11 @@
                     x:Name="Button4" FontSize="16" Background="#e74d41" Foreground="#ffffff"/>
 			<Button Content="О нас"  Height="50" Width="230" Margin="35,10,0,0"
                     x:Name="Button5" FontSize="16" Background="#e74d41" Foreground="#ffffff"/>
-		</StackPanel>	
+		</StackPanel>
+		<Image Grid.Row="0" Grid.Column="1" Grid.RowSpan="2"
+	HorizontalAlignment="Center" VerticalAlignment="Center"
+	Source="https://i.pinimg.com/originals/97/a1/55/97a15540e8a48693a57bfd857f7c6256.png"
+	x:Name="Pict"/>
+	</Grid>
+</Window>
 
