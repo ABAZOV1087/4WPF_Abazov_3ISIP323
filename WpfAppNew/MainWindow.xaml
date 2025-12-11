@@ -6,3 +6,13 @@
         xmlns:local="clr-namespace:WpfAppNew"
         mc:Ignorable="d"
         Title="BarberShop Jony" Height="450" Width="800" Background="#3B83BD">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="Auto"/>
+			<ColumnDefinition Width="*"/>
+		</Grid.ColumnDefinitions>
+
